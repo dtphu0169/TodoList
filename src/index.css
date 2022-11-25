@@ -5,6 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.group-input{
+  border: 1px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.add-todo{
+  border: 0ch;
 }
 
 code {
